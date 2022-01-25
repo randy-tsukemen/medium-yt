@@ -1,7 +1,7 @@
 // lib/sanity.js
 import {
   createImageUrlBuilder,
-  createPreviewSubscriptionHook,
+  createCurrentUserHook,
   createClient,
 } from "next-sanity";
 
