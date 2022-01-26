@@ -48,7 +48,7 @@ export default function Home({ posts }: Props) {
       md:gap-6 p-2 md:p-6"
       >
         {posts.map((post) => (
-          <Link key={post._id} href={`/posts/${post.slug.current}`}>
+          <Link key={post._id} href={`/post/${post.slug.current}`}>
             <div className="group cursor-pointer border rounded-lg overflow-hidden">
               <img
                 className="h-60 w-full object-cover group-hover:scale-105
